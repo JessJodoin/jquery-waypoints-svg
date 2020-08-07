@@ -3,18 +3,18 @@ var $plesio = $('.plesio');
 var $dino = $('.dino');
 var $ptero = $('.ptero');
 
-$mammals.waypoint(function () {
+$mammals.waypoint(function (direction) {
   $mammals.addClass('js-wrapper');
-}, { offset: '35%' });
+}, {offset: '15%'});
 
-$plesio.waypoint(function () {
+$plesio.waypoint(function (direction) {
   $plesio.addClass('js-wrapper');
-}, { offset: '35%' });
+}, {offset: '50%'});
 
-$dino.waypoint(function () {
+$dino.waypoint(function (direction) {
   $dino.addClass('js-wrapper');
-}, { offset: '35%' });
+}, {offset: '50%'});
 
-$ptero.waypoint(function () {
+$ptero.waypoint(function (direction) {
   $ptero.addClass('js-wrapper');
-}, { offset: '35%' });
+}, {offset: '50%'});
